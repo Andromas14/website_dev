@@ -1,8 +1,10 @@
 # Andrew Maslo CMPT 276 Assignment 3 Website
 
-
 ### Deployed Website Link:
 [https://andromas14.github.io/website_dev/](https://andromas14.github.io/website_dev/)
+
+### Project Overview:
+I created a portfolio website, listing some of my notable projects and experiences, along with info about myself and my future projects. The page is separated into 3 distinct sections: intro, experience and future projects. I went for a simple design, but some interactivity, with on-hover items. The paragraphs will be shown in card-styled items, and the sections will be separated by the Titles. On reload all the items will animate into position one-by-one.
 
 ### Technology stack used:
 Developed using ReactJS and CSS Components in VSCode
