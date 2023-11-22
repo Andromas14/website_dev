@@ -1,0 +1,18 @@
+.large-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #3498db; /* Set your desired background color */
+  color: #fff; /* Set your desired text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  z-index: 1000; /* Ensure the header stays above other elements */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  text-align: center;
+  font-size: 5rem; 
+  font-weight: bold; 
+}
+
+.large-header:hover {
+  background-color: #3289c4;
+}
