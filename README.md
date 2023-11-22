@@ -1,11 +1,11 @@
 # Andrew Maslo CMPT 276 Assignment 3 Website
 
 
-Deployed Website Link:  [https://andromas14.github.io/website_dev/](https://andromas14.github.io/website_dev/)
+### Deployed Website Link:
+[https://andromas14.github.io/website_dev/](https://andromas14.github.io/website_dev/)
 
-
-
-
+### Technology stack used:
+Developed using ReactJS and CSS Components in VSCode
 
 ## NPM Guide
 In the project directory, you can run:
