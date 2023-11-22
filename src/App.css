@@ -7,7 +7,7 @@
 }
 
 .main-page-container {
-  background-color: #FFFBF3;
+  background-color: #ffffff;
   padding-top: 16vh;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -22,7 +22,7 @@
 }
 
 .main-page-container-sub {
-  background-color: #FFFBF3;
+  background-color: #ffffff;
   padding-top: 2vh;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -68,7 +68,7 @@
 .big-header {
   text-align: left;
   background-color: #3498db;
-  color: #fff;
+  color: #ffffff;
   width: fit-content;
   padding: 10px 20px;
   font-size: 5rem;

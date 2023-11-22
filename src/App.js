@@ -72,7 +72,7 @@ function App() {
           <div className='body-text'>I have developed multiple full-stack game projects using the Unity game engine. One of my most succesful projects has been "Where The Line Leads", which I developled in a team of 3 during grade 12.
           </div>
           <div className='body-text'>
-            <img src="https://lh5.googleusercontent.com/huenx7VOSmh6eXIsMWbu7XwvdKwVGgHjnt2RmAqNeydQFDkmGdGp8UpXHrnBmNIrG3IGhRhsoXHhfHEnyiPVKS7WzWMZhYZ-oQ80Hcae64qyI3sTknXXTH9YOFm6fRSrpw=w1280" alt="Search Page" />
+            <img src={require("./images/game-img4.png")} alt="Game1" />
           </div>
           <div className='body-text'>
           </div>
@@ -82,11 +82,11 @@ function App() {
           </div>
 
           <div className='body-text'>
-            <img src="https://lh3.googleusercontent.com/lrqJGYqVZ70v5Wpy3Yj5ek1gfbgWBxjLtbGYDOA_hKsIT-akmszixJiq5weDcsrgTf3ZKlHVc-7kuxAdsLqVUtodwD3zS7SV5JGsa6M4rKzIFxL_bqgfdVkTnboJtvn1jQ=w1280" alt="Search Page" />
+            <img src={require("./images/game-img1.png")} alt="Game2" />
           </div>
 
           <div className='body-text'>
-            <img src="https://lh6.googleusercontent.com/8E6ZMjA2iW6my3SKWnXayeQQTrO3wKNKqL5Iazgoz2OJQHZ4sQoHSKjLTvX_tJxFErVlowoZVqnXdHD8RLi8A2lPhjMrBwztYcdnjVm0w_qV25HWN9_XTdrfupKE99vATg=w1280" alt="Search Page" />
+            <img src={require("./images/game-img2.png")} alt="Game3" />
           </div>
 
           <div className='body-text'>
@@ -94,7 +94,7 @@ function App() {
           </div>
 
           <div className='body-text'>
-            <img src="https://lh5.googleusercontent.com/ZbJ3W62I-ZkaxDrN4Yk2QjtWTU7bFUyyf2pH2ve6lwu4IbYXIpTEXDvJKHlyUBvmZgxZ3cY3RR8U-w-RdLsuPr9CCg9HkvGGiXW3POuwoaxyF5tFCqnwpydo4UH-TXGDlQ=w1280" alt="Search Page" />
+            <img src={require("./images/game-img3.png")} alt="Game4" />
           </div>
 
           <div className='body-text'>
