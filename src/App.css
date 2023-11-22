@@ -8,7 +8,7 @@
 
 .main-page-container {
   background-color: #FFFBF3;
-  padding-top: 20vh;
+  padding-top: 16vh;
   margin-left: 2rem;
   margin-right: 2rem;
   display: flex;
@@ -119,12 +119,11 @@ img {
 
 .card:hover {
   background-color: #b8e3ff;
-  transform: scale(1.05); /* Increase size on hover */
 
    .title {
         color:rgb(255, 255, 255);
         }
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a larger box shadow on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 @keyframes fadeInUp {

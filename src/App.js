@@ -20,7 +20,7 @@ function App() {
         <div className='card'>
           <div className='title'>Education.</div>
           <div className='sub-text'>Simon Fraser University</div>
-          <div className='body-text'>SFU courses and clubs have provided me with much of the best software developement practices that I have.
+          <div className='body-text'>SFU courses and clubs have provided me with much of the best software developement practices that I know, as well as lots of applied experience of developing software.
           </div>
           <div className='body-text'>I have completed courses on OOP, Data Structures, computer architecture, RISC-V assembly, full stack software development and more. These classes have given me a solid understanding of the base concepts behind most programming languages and their differences, allowing for effortless adjustment to new languages and platforms. I always find ways to apply myself in school, be it by joining clubs or puting extra working into programming assignements and learning as much as I can.
           </div>
@@ -35,15 +35,18 @@ function App() {
         <div className='card'>
           <div className='title'>Team Phantom Formula SAE.</div>
           <div className='sub-text'>Controls Team DAQ and Network </div>
-          <div className='body-text'>I am currently an Engineering team member of Team Phantom SFU Formula SAE, where we develop embedded software and firmware for a vehicle, in order to compete in the Formula SAE competititon .
+          <div className='body-text'>I am currently an Engineering team member of <a href="https://www.linkedin.com/company/sfuteamphantom">Team Phantom SFU Formula SAE</a>, where we develop embedded software and firmware for a vehicle, in order to compete in the <a href="https://www.fsaeonline.com/">Formula SAE</a> competititon .
           </div>
           <div className='body-text'>My duties include developing Data Acquisition (DAQ) Firmware to interface, collect and process data from multiple sensors, as well as debugging the hardware components. I have programmed the DAQ backend in C++ for the ESP32 microcontroller, helping streamline the process of integrating new sensors.
             I have also started developing The Controller Area Network Protocol (CAN) Software in order to encode and send data between critical systems of the car at high transmission rates. Team Phantom has provided me with many applied experiences of software engineering, with things such as Git, embedded firmware developement, debugging, testing, project responsibilities and much more.
-            <div className='body-text'><a href="https://github.com/sfuphantom/DAQ">Team Phantom DAQ Repository</a></div>
+            <div className='body-text'><a href="https://github.com/sfuphantom/DAQ">Team Phantom Public DAQ Repository</a></div>
           </div>
           <div className='body-text'>
             <img src={require("./images/TP-img.jpg")} alt="Search Page" />
+
           </div>
+          <div className='body-text'>
+            The current setup for the CAN firmware testing using an ESP32 microcontroller.</div>
         </div>
 
         <div className='card'>
@@ -106,22 +109,23 @@ function App() {
           <div className='body-text'>Analysed and Researched Machine Learning Models in order to asist the team in identifying the best choice for their specific objectives. Gained lots of valuable experience by working in a profesional software devepement setting.
           </div>
           <div className='body-text'>
-            Used python in order to modify and run machine learning models for my tasks, while inputing excel data into them, obtaining data science experience in python. At the end of the internship I did a written reprot and a presentation to the team, showcasing my findings and helping discuss the ideal solutions and changes to their current system.
+            Used python in order to modify and run machine learning models for my tasks, while inputing excel data into them, obtaining data science experience in python. At the end of the internship I made a written report and presented it to the team, showcasing my findings and helping discuss the ideal solutions and changes to their current system.
           </div>
         </div>
 
       </div>
 
-      <div className='big-header'>/Ideas and Future Projects:</div>
+      <div className='big-header'>/Future Projects and Milestones:</div>
 
       <div className='main-page-container-sub'>
 
+
         <div className='card'>
-          <div className='title'>Team Phantom.</div>
-          <div className='sub-text'>Finalize the Car and compete</div>
-          <div className='body-text'>The team and I hope to finalize the vehicle for 2024 and use it to comptete. This is quite the undertaking, and will require lots of effort and time from everyone involved, but if succesful it will be very rewarding for everyone involved.
+          <div className='title'>Team Phantom Competititon.</div>
+          <div className='sub-text'>Finalize the Car and Compete in FSAE</div>
+          <div className='body-text'>The team and I hope to finalize the vehicle for 2024 and use it to comptete. This is quite the undertaking, and will require lots of effort and time from everyone involved in the club. But if succesful it will be very rewarding for everyone involved, as 2+ years of work will finally be paid off.
           </div>
-          <div className='body-text'>We are currently making good progress on the Controls side. I am currently working on programming and testing the Network components of the vehicle with good success, and the next steps will involve integration with the rest of the components. Making such a project is not an easy task, but I believe the team has it in ourselves to succeed.
+          <div className='body-text'>We are currently making good progress on the Controls team side. I am working on programming and testing the Network components of the vehicle with good success, and the next steps will involve integration with the rest of the components. Making such a project is not an easy task, but I believe the team has it in ourselves to succeed.
           </div>
         </div>
 
@@ -134,9 +138,14 @@ function App() {
           </div>
         </div>
 
+        <div className='card'>
+          <div className='title'>Full Stack Developement.</div>
+          <div className='sub-text'>Getting involved with more projects and broaden my knowledge</div>
+          <div className='body-text'>In the next few years I hope to do even more projects in different fields in order to get more experience as a software engieneer. Like I said in the introduction, computers and programming is my passion, so I would love to take on more unkown challanges with it and grow in the field.
+          </div>
+        </div>
 
       </div>
-
     </div >
   );
 }
