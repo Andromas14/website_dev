@@ -4,10 +4,16 @@
 [https://andromas14.github.io/website_dev/](https://andromas14.github.io/website_dev/)
 
 ### Project Overview:
-I created a portfolio website, listing some of my notable projects and experiences, along with info about myself and my future projects. The page is separated into 3 distinct sections: intro, experience and future projects. I went for a simple design, but some interactivity, with on-hover items. The paragraphs will be shown in card-styled items, and the sections will be separated by the Titles. On reload all the items will animate into position one-by-one.
+A portfolio website, listing some of my relevant projects and experiences, as well as info about myself and my future projects. The page is separated into 3 distinct sections: Intro, Experience and Future Projects. I went for a simple design, with some interactivity on-hover. The paragraphs will be displayed as cards, and the sections will be separated by the Titles. 
 
-### Technology stack used:
-Developed using ReactJS and CSS Components in VSCode
+### Technology Stack Used:
+Developed using `ReactJS` and `CSS` in VSCode
+
+Deployed using `GitHub Pages`
+
+
+### License Used:
+MIT license used, as it very widely used and suits a small class project the best.
 
 ## NPM Guide
 In the project directory, you can run:
